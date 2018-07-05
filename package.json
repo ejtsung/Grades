@@ -1,0 +1,19 @@
+{
+  "name": "grades",
+  "version": "1.0.0",
+  "description": "Program to check students' grades and display helpful data",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index/index.js",
+    "server": "nodemon index/index.js"
+  },
+  "author": "Eli Tsung",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.3",
+    "mongoose": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  }
+}

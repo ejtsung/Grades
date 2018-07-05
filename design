@@ -1,0 +1,28 @@
+Goals
+---
+Retrieve data about grades and student from Tyler SIS
+Display data in a helpful way, comparing to other students
+Notify students when their grade changes
+
+
+Collect these data sets
+---
+Student ID / 202446
+Name / Eli Tsung
+Schedule
+    in an array, 0 being early bird and 6 being 6th hour
+Class / 2021
+GPA / 4.0
+Grades for each individual class
+    Stored in an array specific for each student
+Percentile of grade
+    Calculated from data collected from other students
+
+
+Methods
+---
+Use program to access Tyler SIS
+    Collect data from Grades, Schedule, and Academic History
+    Copy data into arrays
+    Display
+Use program to send email to student when their grade changes
